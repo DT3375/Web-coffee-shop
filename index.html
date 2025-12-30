@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Coffee shop website</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!--  header section start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img
+          src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/CATPUCCINO.png?v=1694019634163"
+        />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Đánh giá</a>
+        <a href="#contact">Liên hệ</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Tìm kiếm ..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        
+      </div>
+    </header>
+
+    <!--  header section end -->
+
+    <!--  home section start -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Welcome to <span>CATPUCCHINO</span></h3>
+        <p>
+          Hãy ghé thăm quán cafe của chúng tôi để trải nghiệm không gian thư
+          giãn độc đáo cùng hương vị đặc biệt, được chế biến từ những hạt cafe chất
+          lượng cao. Đội ngũ nhân viên thân thiện và chuyên nghiệp của chúng tôi
+          sẵn sàng phục vụ bạn với niềm đam mê và tận tâm.
+        </p>
+        <a herf="#" class="btn">Trải nghiệm ngay</a>
+      </div>
+    </section>
+
+    <!--  home section end -->
+
+    <!--  about section start -->
+    
+    <section class="about" id="about">
+      <h1 class="heading"> <span>Giới thiệu</span> CATPUCCHINO </h1>
+      
+      <div class="row">
+        <div class="image">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/About.jpg?v=1694019602324" alt="">
+        </div>
+        
+        <div class="content">
+          <h3>
+            Cách tạo ra những ly cafe đặc biệt
+          </h3>
+          <p>
+            Chúng tôi chỉ sử dụng những hạt cafe chất lượng cao và xay theo yêu cầu để đảm bảo hương vị tuyệt vời. Bạn có thể thưởng thức những ly cafe pha chế độc đáo, được điều chỉnh tỷ lệ cafe và nước một cách kỹ lưỡng.
+          </p>
+          <a herf="#" class="btn">Tìm hiểu thêm</a>
+        </div>
+        
+      </div>
+    </section>
+    
+    <!--  about section end -->
+    
+    <!--  menu section start -->
+    <section class="menu" id="menu">
+    
+      <h1 class="heading"> <span>Menu</span> </h1>
+      
+      <div class="box-container">
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/menu-mocha.jpg?v=1694025620021" alt="">
+          <h3>
+            Mocha
+          </h3>
+          <div class="price"> 40.000 VND <span>50.000 VND</span></div>
+          <a herf="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/menu-americano.jpg?v=1694025624774" alt="">
+          <h3>
+            Americano
+          </h3>
+          <div class="price"> 40.000 VND <span>50.000 VND</span></div>
+          <a herf="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/menu-macchiato.jpg?v=1694025628599" alt="">
+          <h3>
+            Macchiato
+          </h3>
+          <div class="price"> 40.000 VND <span>50.000 VND</span></div>
+          <a herf="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/menu-cappuchino.jpg?v=1694025633117" alt="">
+          <h3>
+            Cappuchino
+          </h3>
+          <div class="price"> 40.000 VND <span>50.000 VND</span></div>
+          <a herf="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/menu-espresso.jpg?v=1694025638733" alt="">
+          <h3>
+            Espresso
+          </h3>
+          <div class="price"> 40.000 VND <span>50.000 VND</span></div>
+          <a herf="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/menu-latte.jpg?v=1694025665787" alt="">
+          <h3>
+            Latte
+          </h3>
+          <div class="price"> 40.000 VND <span>50.000 VND</span></div>
+          <a herf="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        
+      </div>
+    
+    
+    </section>
+    
+    
+    
+    <!--  menu section end -->
+    
+    <!--  review section start -->
+    
+    <section class="review" id="review">
+    
+      <h1 class="heading">  <span> Đánh giá </span> của khách hàng</h1>
+      <div class="box-container">
+        
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/quote.png?v=1694106913585" alt="" class="quote">
+          <p>
+            Quán cafe này là một nơi tuyệt vời để thưởng thức một ly cafe tràn đầy hương vị. Tôi bị cuốn hút bởi không gian ấm cúng và trang trí độc đáo. Đội ngũ nhân viên thân thiện và nhiệt tình, luôn đảm bảo rằng khách hàng nhận được dịch vụ chất lượng. Đây thực sự là một điểm đến tuyệt vời cho những người yêu cafe.
+          </p>
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/pic-1.jpg?v=1694019632514" class="user" alt="">
+          <h3>Silver Wolf</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/quote.png?v=1694106913585" alt="" class="quote">
+          <p>
+             Những ly cafe tại quán cafe này thực sự ngon và đáng để thử. Tôi đã thưởng thức một tách cappuccino đậm đà và hương vị thật tuyệt vời. Không gian quán cũng rất ấm cúng và thoải mái. Tuy nhiên, tôi mong rằng quán sẽ cải thiện thêm dịch vụ khách hàng để tạo ra trải nghiệm tốt hơn cho khách hàng.
+          </p>
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/pic-2.jpg?v=1694019633716" class="user" alt="">
+          <h3>Kafka</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        
+        
+        
+        <div class="box">
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/quote.png?v=1694106913585" alt="" class="quote">
+          <p>
+             Quán cafe này thực sự là điểm đến tuyệt vời cho những người yêu cafe. Tôi đã thưởng thức một ly cà phê Espresso cực kỳ đậm đà và thơm ngát. Không chỉ vậy, không gian quán cũng rất ấm cúng và trang trí độc đáo, mang đến một không gian thư giãn hoàn hảo.
+          </p>
+          <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/pic-3.jpg?v=1694019633646" class="user" alt="">
+          <h3>Blade</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <!--  review section end -->
+    
+    <!--  contact section start -->
+    <section class="contact" id="contact">
+      <h1 class="heading"> <span>Liên hệ</span> chúng tôi</h1>
+    <div class="row">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3725.042511060533!2d105.76742007525552!3d20.990932980648974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU5JzI3LjQiTiAxMDXCsDQ2JzEyLjAiRQ!5e0!3m2!1svi!2s!4v1694108952554!5m2!1svi!2s" allowfullscreen="" loading="lazy"></iframe>
+      
+    
+    <form action="">
+      <h3>
+        Liên hệ
+      </h3>
+        <div class="inputBox">
+          <span class="fas fa-user"></span>
+          <input type="text" placeholder="Tên">
+      </div>
+      <div class="inputBox">
+          <span class="fas fa-envelope"></span>
+          <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+          <span class="fas fa-phone"></span>
+          <input type="number" placeholder="Số điện thoại">
+      </div>
+      <input type="submit" value="Liên hệ ngay" class="btn">
+      </form>
+    </div>
+    
+    </section> 
+  
+    <!--  contact section end -->
+    
+    <!--  blogs section start -->
+    <section class="blogs" id="blogs">
+      
+      <h1 class="heading"> <span>blogs</span> của cửa hàng</h1>
+    
+      <div class="box-container">
+        
+        <div class="box">
+          <div class="image">
+            <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/blog-1.jpg?v=1694019616630" alt="">
+          </div>
+          <div class="content">
+            <a herf="#" class="title">Cafe: Hương vị đặc biệt và câu chuyện đằng sau cốc cafe</a>
+            <span>By admin / 30th August, 2023</span>
+            <p>
+              Có một thứ thức uống đã trở thành một biểu tượng văn hóa toàn cầu, một niềm đam mê của hàng triệu người trên khắp thế giới - đó là cafe. Một ly cafe đặc biệt không chỉ mang đến hương vị tuyệt vời mà còn ....
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="image">
+            <img src="https://cdn.glitch.global/d0f463dd-c835-4d09-8e09-e8120e4f7002/blog-3.jpg?v=1694019637263" alt="">
+          </div>
+          <div class="content">
+            <a herf="#" class="title">Cafe: Hướng dẫn cho người mới bắt đầu và những điều thú vị về thế giới cafe</a>
+            <span>By admin / 30th August, 2023</span>
+            <p>
+             Cafe, một thức uống được yêu thích trên toàn thế giới, không chỉ đơn thuần là một nhu cầu hàng ngày mà còn là một phong cách sống và một niềm đam mê. Từ hương vị đậm đà cho đến quá trình chế biến  ....
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+      </div>
+    
+
+    </section>
+
+    <!--  blogs section end -->
+    
+    <!--  footer section start -->
+      
+    <section class="footer">
+      <div class="share">
+        <a herf="#" class="fab fa-facebook-f"></a>
+        <a herf="#" class="fab fa-twitter"></a>
+        <a herf="#" class="fab fa-instagram"></a>
+        <a herf="#" class="fab fa-linkedin"></a>
+        <a herf="#" class="fab fa-pinterest"></a>
+      </div>
+      
+      <div class="links">
+        <a herf="#">Trang chủ</a>
+        <a herf="#">Giới thiệu</a>
+        <a herf="#">Menu</a>
+        <a herf="#">Đánh giá</a>
+        <a herf="#">Liên hệ</a>
+        <a herf="#">Blogs</a>
+      </div>
+      
+      <div class="creadit">
+        Created by <span>Dt</span>
+      </div>
+      
+      
+      
+    </section>
+
+    <!--  footer section end -->
+    
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>
